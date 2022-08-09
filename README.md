@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Gangnam Coding Club frontend repo
 
-First, run the development server:
+Version: 
+- Nextjs : 12.2.4
+- react: 18.2.0
+- typescript: 4.7.4
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+메이저한 버그나 업데이트가 필요하지 않은 이상, 이 버전은 그대로 계속 둔다. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### 작업 방법
+1. 이슈보드를 확인하고 본인이 할 수 있으면 본이으로 할당해서 작업을 진행한 후 PR을 날려 놓는다. 
+2. PR에 대한 review는 최소 2명을 지정한다. 그리고 그 중 적어도 한 명의 approval이 있어야 merge된다.
+3. 작업은 develop branch에서 하게 되고 merge할때는 squash merge를 해서 merge commit을 남기지 않는 방식으로 한다. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 작업
+### 20220809
+- 랜딩페이지 디자인 및 레이아웃
+- 팀 소개 페이지
